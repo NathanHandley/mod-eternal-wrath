@@ -1,5 +1,5 @@
-//  Author: Nathan Handley (<https://github.com/NathanHandley> | nathanhandley@protonmail.com)
-//  Copyright (c) 2024 Nathan Handley
+// Author: Nathan Handley (<https://github.com/NathanHandley> | nathanhandley@protonmail.com)
+// Copyright (c) 2024 Nathan Handley
 //
 // This program is free software; you can redistribute it and/or modify it
 // under the terms of the GNU Affero General Public License as published by the
@@ -20,6 +20,8 @@
 #include "Chat.h"
 #include "Opcodes.h"
 
+#include "EternalWrath_MountSpells.h"
+
 class EternalWrath_WorldScript : public WorldScript
 {
 public:
@@ -27,7 +29,7 @@ public:
 
     void OnAfterConfigLoad(bool /*reload*/) override
     {
-
+        RegisterSpellScriptWithArgs(SpellGenMount, "spell_celestial_cat", 0, SPELL_CELESTIAL_CAT_60, SPELL_CELESTIAL_CAT_100, SPELL_CELESTIAL_CAT_150, SPELL_CELESTIAL_CAT_280, SPELL_CELESTIAL_CAT_310);
     }
 };
 

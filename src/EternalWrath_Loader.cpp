@@ -1,5 +1,5 @@
-//  Author: Nathan Handley (<https://github.com/NathanHandley> | nathanhandley@protonmail.com)
-//  Copyright (c) 2024 Nathan Handley
+// Author: Nathan Handley (<https://github.com/NathanHandley> | nathanhandley@protonmail.com)
+// Copyright (c) 2024 Nathan Handley
 //
 // This program is free software; you can redistribute it and/or modify it
 // under the terms of the GNU Affero General Public License as published by the
