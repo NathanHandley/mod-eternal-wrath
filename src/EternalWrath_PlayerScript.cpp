@@ -14,11 +14,26 @@
 // You should have received a copy of the GNU General Public License along
 // with this program. If not, see <http://www.gnu.org/licenses/>.
 
-void AddEternalWrathWorldScript();
-void AddEternalWrathPlayerScript();
+#include "Object.h"
+#include "Player.h"
+#include "ScriptMgr.h"
 
-void Addmod_eternal_wrathScripts()
+class EternalWrath_PlayerScript : public PlayerScript
 {
-    AddEternalWrathWorldScript();
-    AddEternalWrathPlayerScript();
+public:
+    EternalWrath_PlayerScript() : PlayerScript("EternalWrath_PlayerScript") {}
+
+    void OnLogin(Player* player)
+    {
+        // Restrict rest_bonus to level 80 experience amount
+        float expBase = 1670800.0f;
+        float rest_bonus_max = expBase * 1.5f / 2;
+        if (player->GetRestBonus() > rest_bonus_max)
+            player->SetRestBonus(rest_bonus_max);
+    }    
+};
+
+void AddEternalWrathPlayerScript()
+{
+    new EternalWrath_PlayerScript();
 }

@@ -25,7 +25,7 @@
 class EternalWrath_WorldScript : public WorldScript
 {
 public:
-    EternalWrath_WorldScript() : WorldScript("eternalWrath") {}
+    EternalWrath_WorldScript() : WorldScript("EternalWrath_WorldScript") {}
 
     void OnAfterConfigLoad(bool /*reload*/) override
     {
@@ -33,7 +33,7 @@ public:
     }
 };
 
-void AddEternalWrathScripts()
+void AddEternalWrathWorldScript()
 {
 	new EternalWrath_WorldScript();
 }
