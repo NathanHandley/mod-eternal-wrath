@@ -16,7 +16,7 @@
 
 #include "EternalWrath_MountSpells.h"
 
-// Much of this code was taken from SpellScript.h and spell_generic.cpp from the AzerothCore
+// This code was taken from SpellScript.h and spell_generic.cpp from the AzerothCore
 // project (azerothcore.org)
 SpellGenMount::SpellGenMount(uint32 mount0, uint32 mount60, uint32 mount100, uint32 mount150, uint32 mount280, uint32 mount310) : SpellScript(),
         _mount0(mount0), _mount60(mount60), _mount100(mount100), _mount150(mount150), _mount280(mount280), _mount310(mount310)

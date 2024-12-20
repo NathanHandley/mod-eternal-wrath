@@ -37,7 +37,7 @@ enum EWMounts
     SPELL_CELESTIAL_CAT_310 = 82014
 };
 
-// Much of this code was taken from SpellScript.h and spell_generic.cpp from the AzerothCore
+// This code was taken from SpellScript.h and spell_generic.cpp from the AzerothCore
 // project (azerothcore.org)
 class SpellGenMount : public SpellScript
 {
