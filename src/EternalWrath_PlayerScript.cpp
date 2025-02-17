@@ -23,7 +23,7 @@ class EternalWrath_PlayerScript : public PlayerScript
 public:
     EternalWrath_PlayerScript() : PlayerScript("EternalWrath_PlayerScript") {}
 
-    void OnLogin(Player* player)
+    void OnPlayerLogin(Player* player) override
     {
         // Restrict rest_bonus to level 80 experience amount
         float expBase = 1670800.0f;
