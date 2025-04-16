@@ -1,0 +1,16 @@
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=160, `rank`=0, `comment`='Two-Handed Maces' WHERE `raceMask`=0 AND `classMask`=3 AND `skill`=160;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=45, `rank`=0, `comment`='Bows' WHERE `raceMask`=0 AND `classMask`=4 AND `skill`=45;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=46, `rank`=0, `comment`='Guns' WHERE `raceMask`=0 AND `classMask`=4 AND `skill`=46;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=226, `rank`=0, `comment`='Crossbows' WHERE `raceMask`=0 AND `classMask`=4 AND `skill`=226;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=176, `rank`=0, `comment`='Thrown' WHERE `raceMask`=0 AND `classMask`=9 AND `skill`=176;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=229, `rank`=0, `comment`='Polearms' WHERE `raceMask`=0 AND `classMask`=32 AND `skill`=229;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=55, `rank`=0, `comment`='Two-Handed Swords' WHERE `raceMask`=0 AND `classMask`=35 AND `skill`=55;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=44, `rank`=0, `comment`='Axes' WHERE `raceMask`=0 AND `classMask`=37 AND `skill`=44;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=172, `rank`=0, `comment`='Two-Handed Axes' WHERE `raceMask`=0 AND `classMask`=37 AND `skill`=172;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=43, `rank`=0, `comment`='Swords' WHERE `raceMask`=0 AND `classMask`=39 AND `skill`=43;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=118, `rank`=0, `comment`='Dual Wield' WHERE `raceMask`=0 AND `classMask`=40 AND `skill`=118;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=433, `rank`=0, `comment`='Shield' WHERE `raceMask`=0 AND `classMask`=67 AND `skill`=433;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=228, `rank`=0, `comment`='Wands' WHERE `raceMask`=0 AND `classMask`=400 AND `skill`=228;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=54, `rank`=0, `comment`='Maces' WHERE `raceMask`=0 AND `classMask`=1107 AND `skill`=54;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=173, `rank`=0, `comment`='Daggers' WHERE `raceMask`=0 AND `classMask`=1293 AND `skill`=173;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=0, `skill`=136, `rank`=0, `comment`='Staves' WHERE `raceMask`=0 AND `classMask`=1488 AND `skill`=136;
