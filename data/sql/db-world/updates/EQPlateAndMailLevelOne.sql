@@ -1,0 +1,3 @@
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=51, `skill`=293, `rank`=0, `comment`='Plate' WHERE `raceMask`=0 AND `classMask`=32 AND `skill`=293;
+UPDATE `playercreateinfo_skills` SET `raceMask`=0, `classMask`=127, `skill`=413, `rank`=0, `comment`='Mail' WHERE `raceMask`=0 AND `classMask`=35 AND `skill`=413;
+UPDATE npc_trainer SET MoneyCost = 1, ReqLevel = 1 WHERE SpellID IN (750, 8737) AND ID >= 210000;
